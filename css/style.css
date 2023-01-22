@@ -1,5 +1,61 @@
-h1 {
+h1,
+p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+header {
+    background: #efefef;
+}
+header .container {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    padding: 32px 0;
+    align-items: center;
+
+}
+
+header .container div + div {
+    margin: 32px;
+}
+
+header h1 {
     font-size: 24px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid #ddd;
+    font-weight: normal;
+
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header ul  li + li {
+    margin-left: 8px;
+}
+
+header .icon {
+    border-radius: 50px;
+}
+
+main .container {
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+main h1 {
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
 }
